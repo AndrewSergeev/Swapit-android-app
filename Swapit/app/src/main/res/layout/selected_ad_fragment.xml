@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <TextView
+            android:id="@+id/toolbar_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="ItemName"
+            android:gravity="center_vertical|start"
+            android:textColor="@color/white"/>
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/iv_pager"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/black"
+        android:layout_marginTop="55dp"/>
+
+    <TextView
+        android:id="@+id/image_counter_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="225dp"
+        android:text="0/0"
+        android:textColor="@color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="65dp"
+        android:layout_marginTop="275dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/selected_item_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:text="Item name"
+                android:textColor="@color/textColorDarkGray"
+                android:textSize="22sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/selected_item_name_tv"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/lightGray" />
+
+            <LinearLayout
+                android:id="@+id/linear_selected_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/selected_item_name_tv"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/selected_item_description_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/colorPrimary"
+                    android:drawableTop="@drawable/searchpic"
+                    android:gravity="center"
+                    android:text="Item description Item description Item description Item description Item description"
+                    android:textColor="@color/textColorGray" />
+
+                <TextView
+                    android:id="@+id/selected_item_categories_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/colorPrimary"
+                    android:drawableTop="@drawable/swapswap"
+                    android:gravity="center"
+                    android:text="Swappable to phones, clothes, books"
+                    android:textColor="@color/textColorGray" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_selected_fragment2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear_selected_fragment"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/selected_item_place_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/colorPrimary"
+                    android:drawableTop="@drawable/placelocalizer"
+                    android:gravity="center"
+                    android:text="Tel Aviv"
+                    android:textColor="@color/textColorGray" />
+
+                <TextView
+                    android:id="@+id/selected_item_time_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/colorPrimary"
+                    android:drawableTop="@drawable/clock"
+                    android:gravity="center"
+                    android:text="22/5/1992"
+                    android:textColor="@color/textColorGray" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/linear_selected_fragment2"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/lightGray" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/materialGray"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/offer_deal_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/material_btn_selector"
+            android:drawableTint="@color/textColorDarkGray"
+            android:drawableTop="@drawable/swapswap"
+            android:text="@string/offer_deal"
+            android:textAllCaps="false"
+            android:textColor="@color/textColorGray"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/start_conv_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/material_btn_selector"
+            android:drawableTint="@color/textColorDarkGray"
+            android:drawableTop="@drawable/startconversation"
+            android:text="@string/start_conversation"
+            android:textAllCaps="false"
+            android:textColor="@color/textColorGray"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/selected_ad_owner_iv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="215dp"
+        android:background="@drawable/circle_iv_shape"
+        android:padding="5dp"
+        android:scaleType="center"
+        android:src="@drawable/userbig" />
+
+
+</FrameLayout>

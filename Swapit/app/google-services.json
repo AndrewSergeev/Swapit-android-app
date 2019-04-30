@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "8866241856",
+    "firebase_url": "https://swapit-67419.firebaseio.com",
+    "project_id": "swapit-67419",
+    "storage_bucket": "swapit-67419.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8866241856:android:3ba7c53969c29002",
+        "android_client_info": {
+          "package_name": "il.co.freebie.swapit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8866241856-94bpu8ftm87q1ucrqr409ktsm9921n38.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "il.co.freebie.swapit",
+            "certificate_hash": "64e8571820f09f3859dc0c3a7592bd0d1332fb8b"
+          }
+        },
+        {
+          "client_id": "8866241856-s2k9ej63hidns9fqlpnv7cp4keb6oin7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVH0tjkjR3DAgY8AgwSCq5Xd82j7Dp69E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8866241856-s2k9ej63hidns9fqlpnv7cp4keb6oin7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Swapit</string>
+    <string name="chat">צ\'אט</string>
+    <string name="recent_searches">חיפושים אחרונים</string>
+    <string name="sign_in">היכנס</string>
+    <string name="sign_up">הירשם</string>
+    <string name="sign_out">התנתק</string>
+    <string name="email">דוא\"ל</string>
+    <string name="password">סיסמה</string>
+    <string name="password_confirm">אימות סיסמה</string>
+    <string name="username">שם משתמש</string>
+    <string name="register">הירשם</string>
+    <string name="login">היכנס</string>
+    <string name="select_category">בחר קטגוריה</string>
+    <string name="ad_name">שם</string>
+    <string name="description">תיאור</string>
+    <string name="interested_in">קטגוריות להחלפה</string>
+    <string name="publish">לפרסם</string>
+    <string name="city">עיר</string>
+
+    <string-array name="categories">
+        <item>Antiques</item>
+        <item>Art</item>
+        <item>Baby</item>
+        <item>Books</item>
+        <item>Business</item>
+        <item>Phones</item>
+        <item>Clothing</item>
+        <item>Computers</item>
+        <item>Consumer Electronics</item>
+        <item>Toys</item>
+        <item>Health And Beauty</item>
+        <item>Home And Garden</item>
+        <item>Jewerly</item>
+        <item>Music</item>
+        <item>Musical Instruments</item>
+        <item>Pets</item>
+        <item>Sport</item>
+        <item>Transport</item>
+        <item>Real estate</item>
+        <item>Everything else</item>
+    </string-array>
+
+    <string name="choose_category">אנא בחר קטגוריה</string>
+    <string name="select_catg_for_swapping">בחר קטגוריות להחלפה שאתה מעוניין בהן</string>
+    <string name="save">שמור</string>
+    <string name="fields_are_not_filled">נא למלא את כל השדות</string>
+    <string name="user_info">מידע משתמש</string>
+    <string name="lives_in">גר ב</string>
+    <string name="completed_swaps">החלפות שהושלמו:</string>
+    <string name="user_interested_in">מעוניין ב</string>
+    <string name="take_new_photo">צלם תמונה חדשה</string>
+    <string name="select_from_gallery">בחר מתוך הגלריה</string>
+    <string name="at_least_one_photo">הוסף לפחות תמונה אחת למודעה זו</string>
+    <string name="swappable_on">ניתן להחלפה ב</string>
+    <string name="permission_denied">אני לא יכולה לעבוד בלי רשות</string>
+    <string name="photo_size">גודל התמונה המרבי המותר הוא 1.5 מגה-בייט</string>
+    <string name="cancel">בטל</string>
+    <string name="not_specified">לא צוין</string>
+    <string name="neaby">הכי קרובות אלי</string>
+    <string name="newest">חדשות ביותר</string>
+    <string name="all">הכל</string>
+    <string name="delete_ad_question">מחק מודעה עם</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+    <string name="delete">מחק</string>
+    <string name="offer_deal">הצעה עסקה</string>
+    <string name="choose_ad">בחר מודעה להצעה שלך</string>
+    <string name="start_conversation">התחל שיחה</string>
+    <string name="cayegory_not_matched">קטגוריית ההצעה שלך אינה תואמת לקטגוריות המבוקשות של מודעה זו.</string>
+    <string name="still_offer">להציע בכל מקרה?</string>
+    <string name="no_choose_another">לא, בחר אחרת</string>
+    <string name="and">ועוד</string>
+    <string name="others">נוספות</string>
+    <string name="request_matches">הקטגוריה המבוקשת מתאימה לאחד מהפריטים שלי</string>
+    <string name="free_txt">טקסט חופשי</string>
+    <string name="find">מצא</string>
+    <string name="at_least_one_field">כדי לחפש לפחות שדה אחד חייב להיות מלא</string>
+    <string name="loading">טעינה</string>
+    <string name="found">נמצאו</string>
+    <string name="results">תוצאות</string>
+    <string name="no_hometown">מקום המגורים שלך אינו צוין</string>
+    <string name="location_not_found">היישוב אינו מזוהה</string>
+    <string name="type_msg">הקלד הודעה</string>
+    <string name="delete_chat">מחק את השיחה עם</string>
+    <string name="password_not_strong">הסיסמה אינה חזקה מספיק</string>
+    <string name="passwords_not_equal">סיסמאות אינן שוות</string>
+    <string name="invalid_email">האימייל שגוי</string>
+    <string name="account_already_exists">כבר קיים חשבון עם כתובת האימייל הזו</string>
+    <string name="invalid_email_or_password">האימייל או הסיסמא שגויים</string>
+    <string name="subscribe">הירשם לעדכונים</string>
+    <string name="unsubscribe">בטל רישום לעדכונים</string>
+    <string name="swapping_market">תסתכל מה חדש בשוק החלפה!</string>
+    <string name="subscribed">נרשמת</string>
+    <string name="unsubscribed">הרשמה מבוטלת</string>
+    <string name="new_message">הודעה חדשה</string>
+</resources>

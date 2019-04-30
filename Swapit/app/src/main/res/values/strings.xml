@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Swapit</string>
+    <string name="chat">Chat</string>
+    <string name="recent_searches">Recent searches</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_out">Sign out</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="password_confirm">Password confirmation</string>
+    <string name="username">Username</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="select_category">Select category</string>
+    <string name="description">Description</string>
+    <string name="interested_in">Categories for swapping</string>
+    <string name="publish">Publish</string>
+    <string name="ad_name">Name</string>
+    <string name="city">City</string>
+
+    <string-array name="categories">
+        <item>Antiques</item>
+        <item>Art</item>
+        <item>Baby</item>
+        <item>Books</item>
+        <item>Business</item>
+        <item>Phones</item>
+        <item>Clothing</item>
+        <item>Computers</item>
+        <item>Consumer Electronics</item>
+        <item>Toys</item>
+        <item>Health And Beauty</item>
+        <item>Home And Garden</item>
+        <item>Jewerly</item>
+        <item>Music</item>
+        <item>Musical Instruments</item>
+        <item>Pets</item>
+        <item>Sport</item>
+        <item>Transport</item>
+        <item>Real estate</item>
+        <item>Everything else</item>
+    </string-array>
+    <string name="choose_category">Please choose a category</string>
+    <string name="select_catg_for_swapping">Please select categories for swapping you are interested in</string>
+    <string name="save">Save</string>
+    <string name="fields_are_not_filled">Please fill in all fields</string>
+    <string name="user_info">User information</string>
+    <string name="lives_in">Lives in</string>
+    <string name="completed_swaps">Completed swapps:</string>
+    <string name="user_interested_in">Interested in</string>
+    <string name="take_new_photo">Take new photo</string>
+    <string name="select_from_gallery">Select from gallery</string>
+    <string name="at_least_one_photo">Please add at least 1 photo to this ad</string>
+    <string name="swappable_on">Swappable on</string>
+    <string name="permission_denied">I can\'t work without this permission</string>
+    <string name="photo_size">The maximum allowed photo size is 1.5 MB</string>
+    <string name="cancel">Cancel</string>
+    <string name="not_specified">not specified</string>
+    <string name="neaby">Closest to me</string>
+    <string name="newest">Newest</string>
+    <string name="all">All</string>
+    <string name="delete_ad_question">Delete ad with</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="delete">Delete</string>
+    <string name="offer_deal">Offer a deal</string>
+    <string name="start_conversation">Start conversation</string>
+    <string name="choose_ad">Choose an ad for your offer</string>
+    <string name="cayegory_not_matched">Your offer category does not match the requested categories of this ad.</string>
+    <string name="still_offer">Still offer?</string>
+    <string name="no_choose_another">No, choose another</string>
+    <string name="and">and</string>
+    <string name="others">others</string>
+    <string name="request_matches">Requested category matches one of my items</string>
+    <string name="free_txt">Free text</string>
+    <string name="find">Find</string>
+    <string name="at_least_one_field">To search at least one field must be filled</string>
+    <string name="loading">Loading</string>
+    <string name="found">found</string>
+    <string name="results">results</string>
+    <string name="no_hometown">Your living place is not specified</string>
+    <string name="location_not_found">Locality is not detected</string>
+    <string name="type_msg">Type a message</string>
+    <string name="delete_chat">Delete conversation with</string>
+    <string name="password_not_strong">Password is not strong enough</string>
+    <string name="passwords_not_equal">Passwords are not equal</string>
+    <string name="invalid_email">The email is incorrect</string>
+    <string name="account_already_exists">An account already exists with that email address</string>
+    <string name="invalid_email_or_password">Invalid email or password</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="unsubscribe">Unsubscribe</string>
+    <string name="swapping_market">See what\'s new on the swapping market</string>
+    <string name="subscribed">Subscribed</string>
+    <string name="unsubscribed">Unsubscribed</string>
+    <string name="new_message">New message</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_home"
+            android:state_checked="true"
+            android:icon="@drawable/homepic"
+            android:title="" />
+
+        <item
+            android:id="@+id/item_user"
+            android:icon="@drawable/userpic"
+            android:title=""/>
+
+        <item
+            android:id="@+id/item_new_ad"
+            android:icon="@drawable/add_square"
+            android:title=""/>
+
+        <item
+            android:id="@+id/item_conversations"
+            android:icon="@drawable/conversation"
+            android:title=""/>
+
+        <item
+            android:id="@+id/item_search"
+            android:icon="@drawable/searchpic"
+            android:title=""/>
+    </group>
+</menu>

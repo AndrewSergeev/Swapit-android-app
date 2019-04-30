@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/item_sign_up"
+            android:icon="@drawable/register"
+            android:title="@string/sign_up"/>
+
+        <item android:id="@+id/item_sign_in"
+            android:icon="@drawable/sign_in"
+            android:title="@string/sign_in"/>
+
+        <item android:id="@+id/item_sign_out"
+            android:icon="@drawable/sign_out"
+            android:title="@string/sign_out"
+            android:visible="false"/>
+
+        <item android:id="@+id/item_notif_on"
+            android:icon="@drawable/notificationon"
+            android:title="@string/subscribe"
+            android:visible="false"/>
+
+        <item android:id="@+id/item_notif_off"
+            android:icon="@drawable/notificationsoff"
+            android:title="@string/unsubscribe"
+            android:visible="false"/>
+    </group>
+</menu>

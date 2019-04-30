@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/circle_ad_shape"
+        android:id="@+id/interlocutor_photo_iv"
+        android:scaleType="center"
+        android:src="@drawable/userpic"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/interlocutor_photo_iv"
+        android:weightSum="2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/interlocutor_name_tv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textAlignment="viewStart"
+                android:layout_weight="7"
+                android:textColor="@color/black"
+                android:text="Nameuser"
+                android:textSize="18sp"
+                android:maxLines="1"/>
+
+            <TextView
+                android:id="@+id/time_of_last_msg_tv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="end|center_vertical"
+                android:textColor="@color/textColorGray"
+                android:text="17/2/19"
+                android:textSize="12sp"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/last_msg_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="blablabla"
+            android:textColor="@color/textColorGray"
+            android:maxLines="1"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/delimiterView"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/lightGray"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"/>
+
+</RelativeLayout>
